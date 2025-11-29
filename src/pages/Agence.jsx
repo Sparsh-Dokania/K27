@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Agence = () => {
+const Agence = () => {
   return (
-    <div>Agence</div>
+    <div className='bg-amber-900 w-screen h-screen'>
+      agence
+    </div>
   )
 }
+
+export default Agence
