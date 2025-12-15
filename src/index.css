@@ -11,3 +11,23 @@
 body{
     overflow-x:hidden
 }
+.moveX{
+    animation: moveAnimation 10s linear infinite;
+}
+.moveLink{
+    opacity: 0;
+}
+.link:hover .moveLink{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes moveAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    
+}
